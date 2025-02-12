@@ -30,54 +30,54 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
-            flowLayoutPanel1 = new FlowLayoutPanel();
-            contextMenuStrip1 = new ContextMenuStrip(this.components);
-            addManuallyToolStripMenuItem = new ToolStripMenuItem();
-            purgeAllMetadataToolStripMenuItem = new ToolStripMenuItem();
+            this.flowLayoutPanel1 = new FlowLayoutPanel();
+            this.contextMenuStrip1 = new ContextMenuStrip(this.components);
+            this.addManuallyToolStripMenuItem = new ToolStripMenuItem();
+            this.purgeAllMetadataToolStripMenuItem = new ToolStripMenuItem();
             this.TickTimer = new System.Windows.Forms.Timer(this.components);
-            LoadingProgressBar = new ProgressBar();
-            panel1 = new Panel();
-            flowLayoutPanel2 = new FlowLayoutPanel();
-            HomeNavLabel = new Label();
-            DetailNavLabel = new Label();
-            SettingNavLabel = new Label();
+            this.LoadingProgressBar = new ProgressBar();
+            this.panel1 = new Panel();
+            this.flowLayoutPanel2 = new FlowLayoutPanel();
+            this.HomeNavLabel = new Label();
+            this.DetailNavLabel = new Label();
+            this.SettingNavLabel = new Label();
             this.paletteExtenderProvider1 = new Models.PaletteExtenderProvider();
-            contextMenuStrip1.SuspendLayout();
-            panel1.SuspendLayout();
-            flowLayoutPanel2.SuspendLayout();
+            this.contextMenuStrip1.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
             // 
-            flowLayoutPanel1.AutoScroll = true;
-            flowLayoutPanel1.ContextMenuStrip = contextMenuStrip1;
-            flowLayoutPanel1.Dock = DockStyle.Fill;
-            flowLayoutPanel1.Location = new Point(0, 85);
-            flowLayoutPanel1.Margin = new Padding(6);
-            flowLayoutPanel1.Name = "flowLayoutPanel1";
-            flowLayoutPanel1.Size = new Size(1554, 1020);
-            flowLayoutPanel1.TabIndex = 0;
+            this.flowLayoutPanel1.AutoScroll = true;
+            this.flowLayoutPanel1.ContextMenuStrip = this.contextMenuStrip1;
+            this.flowLayoutPanel1.Dock = DockStyle.Fill;
+            this.flowLayoutPanel1.Location = new Point(0, 85);
+            this.flowLayoutPanel1.Margin = new Padding(6);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new Size(1554, 1020);
+            this.flowLayoutPanel1.TabIndex = 0;
             // 
             // contextMenuStrip1
             // 
-            contextMenuStrip1.ImageScalingSize = new Size(32, 32);
-            contextMenuStrip1.Items.AddRange(new ToolStripItem[] { addManuallyToolStripMenuItem, purgeAllMetadataToolStripMenuItem });
-            contextMenuStrip1.Name = "contextMenuStrip1";
-            contextMenuStrip1.Size = new Size(289, 80);
+            this.contextMenuStrip1.ImageScalingSize = new Size(32, 32);
+            this.contextMenuStrip1.Items.AddRange(new ToolStripItem[] { this.addManuallyToolStripMenuItem, this.purgeAllMetadataToolStripMenuItem });
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new Size(289, 80);
             // 
             // addManuallyToolStripMenuItem
             // 
-            addManuallyToolStripMenuItem.Name = "addManuallyToolStripMenuItem";
-            addManuallyToolStripMenuItem.Size = new Size(288, 38);
-            addManuallyToolStripMenuItem.Text = "Add manually";
-            addManuallyToolStripMenuItem.Click += this.addManuallyToolStripMenuItem_Click;
+            this.addManuallyToolStripMenuItem.Name = "addManuallyToolStripMenuItem";
+            this.addManuallyToolStripMenuItem.Size = new Size(288, 38);
+            this.addManuallyToolStripMenuItem.Text = "Add manually";
+            this.addManuallyToolStripMenuItem.Click += this.addManuallyToolStripMenuItem_Click;
             // 
             // purgeAllMetadataToolStripMenuItem
             // 
-            purgeAllMetadataToolStripMenuItem.Name = "purgeAllMetadataToolStripMenuItem";
-            purgeAllMetadataToolStripMenuItem.Size = new Size(288, 38);
-            purgeAllMetadataToolStripMenuItem.Text = "Purge all metadata";
-            purgeAllMetadataToolStripMenuItem.Click += this.purgeAllMetadataToolStripMenuItem_Click;
+            this.purgeAllMetadataToolStripMenuItem.Name = "purgeAllMetadataToolStripMenuItem";
+            this.purgeAllMetadataToolStripMenuItem.Size = new Size(288, 38);
+            this.purgeAllMetadataToolStripMenuItem.Text = "Purge all metadata";
+            this.purgeAllMetadataToolStripMenuItem.Click += this.purgeAllMetadataToolStripMenuItem_Click;
             // 
             // TickTimer
             // 
@@ -87,75 +87,75 @@
             // 
             // LoadingProgressBar
             // 
-            LoadingProgressBar.BackColor = Color.White;
-            LoadingProgressBar.Dock = DockStyle.Bottom;
-            LoadingProgressBar.Location = new Point(0, 1105);
-            LoadingProgressBar.Margin = new Padding(6);
-            LoadingProgressBar.Name = "LoadingProgressBar";
-            LoadingProgressBar.Size = new Size(1554, 49);
-            LoadingProgressBar.TabIndex = 3;
+            this.LoadingProgressBar.BackColor = Color.White;
+            this.LoadingProgressBar.Dock = DockStyle.Bottom;
+            this.LoadingProgressBar.Location = new Point(0, 1105);
+            this.LoadingProgressBar.Margin = new Padding(6);
+            this.LoadingProgressBar.Name = "LoadingProgressBar";
+            this.LoadingProgressBar.Size = new Size(1554, 49);
+            this.LoadingProgressBar.TabIndex = 3;
             // 
             // panel1
             // 
-            panel1.BackColor = Color.FromArgb(47, 51, 58);
-            panel1.Controls.Add(flowLayoutPanel2);
-            panel1.Dock = DockStyle.Top;
-            panel1.Location = new Point(0, 0);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(1554, 85);
-            panel1.TabIndex = 4;
+            this.panel1.BackColor = Color.FromArgb(47, 51, 58);
+            this.panel1.Controls.Add(this.flowLayoutPanel2);
+            this.panel1.Dock = DockStyle.Top;
+            this.panel1.Location = new Point(0, 0);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new Size(1554, 85);
+            this.panel1.TabIndex = 4;
             // 
             // flowLayoutPanel2
             // 
-            flowLayoutPanel2.Controls.Add(HomeNavLabel);
-            flowLayoutPanel2.Controls.Add(DetailNavLabel);
-            flowLayoutPanel2.Controls.Add(SettingNavLabel);
-            flowLayoutPanel2.Dock = DockStyle.Fill;
-            flowLayoutPanel2.Location = new Point(0, 0);
-            flowLayoutPanel2.Name = "flowLayoutPanel2";
-            flowLayoutPanel2.Padding = new Padding(10, 17, 0, 0);
-            flowLayoutPanel2.Size = new Size(1554, 85);
-            flowLayoutPanel2.TabIndex = 3;
+            this.flowLayoutPanel2.Controls.Add(this.HomeNavLabel);
+            this.flowLayoutPanel2.Controls.Add(this.DetailNavLabel);
+            this.flowLayoutPanel2.Controls.Add(this.SettingNavLabel);
+            this.flowLayoutPanel2.Dock = DockStyle.Fill;
+            this.flowLayoutPanel2.Location = new Point(0, 0);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Padding = new Padding(10, 17, 0, 0);
+            this.flowLayoutPanel2.Size = new Size(1554, 85);
+            this.flowLayoutPanel2.TabIndex = 3;
             // 
             // HomeNavLabel
             // 
-            HomeNavLabel.AutoSize = true;
-            HomeNavLabel.Cursor = Cursors.Hand;
-            HomeNavLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            HomeNavLabel.ForeColor = Color.FromArgb(142, 122, 181);
-            HomeNavLabel.Location = new Point(30, 17);
-            HomeNavLabel.Margin = new Padding(20, 0, 20, 0);
-            HomeNavLabel.Name = "HomeNavLabel";
-            HomeNavLabel.Size = new Size(107, 45);
-            HomeNavLabel.TabIndex = 0;
-            HomeNavLabel.Text = "Home";
-            HomeNavLabel.Click += this.HomeNavLabel_Click;
+            this.HomeNavLabel.AutoSize = true;
+            this.HomeNavLabel.Cursor = Cursors.Hand;
+            this.HomeNavLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            this.HomeNavLabel.ForeColor = Color.FromArgb(142, 122, 181);
+            this.HomeNavLabel.Location = new Point(30, 17);
+            this.HomeNavLabel.Margin = new Padding(20, 0, 20, 0);
+            this.HomeNavLabel.Name = "HomeNavLabel";
+            this.HomeNavLabel.Size = new Size(107, 45);
+            this.HomeNavLabel.TabIndex = 0;
+            this.HomeNavLabel.Text = "Home";
+            this.HomeNavLabel.Click += this.HomeNavLabel_Click;
             // 
             // DetailNavLabel
             // 
-            DetailNavLabel.AutoSize = true;
-            DetailNavLabel.Cursor = Cursors.Hand;
-            DetailNavLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            DetailNavLabel.Location = new Point(177, 17);
-            DetailNavLabel.Margin = new Padding(20, 0, 20, 0);
-            DetailNavLabel.Name = "DetailNavLabel";
-            DetailNavLabel.Size = new Size(116, 45);
-            DetailNavLabel.TabIndex = 2;
-            DetailNavLabel.Text = "Details";
-            DetailNavLabel.Click += this.DetailNavLabel_Click;
+            this.DetailNavLabel.AutoSize = true;
+            this.DetailNavLabel.Cursor = Cursors.Hand;
+            this.DetailNavLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            this.DetailNavLabel.Location = new Point(177, 17);
+            this.DetailNavLabel.Margin = new Padding(20, 0, 20, 0);
+            this.DetailNavLabel.Name = "DetailNavLabel";
+            this.DetailNavLabel.Size = new Size(116, 45);
+            this.DetailNavLabel.TabIndex = 2;
+            this.DetailNavLabel.Text = "Details";
+            this.DetailNavLabel.Click += this.DetailNavLabel_Click;
             // 
             // SettingNavLabel
             // 
-            SettingNavLabel.AutoSize = true;
-            SettingNavLabel.Cursor = Cursors.Hand;
-            SettingNavLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            SettingNavLabel.Location = new Point(333, 17);
-            SettingNavLabel.Margin = new Padding(20, 0, 20, 0);
-            SettingNavLabel.Name = "SettingNavLabel";
-            SettingNavLabel.Size = new Size(135, 45);
-            SettingNavLabel.TabIndex = 1;
-            SettingNavLabel.Text = "Settings";
-            SettingNavLabel.Click += this.SettingNavLabel_Click;
+            this.SettingNavLabel.AutoSize = true;
+            this.SettingNavLabel.Cursor = Cursors.Hand;
+            this.SettingNavLabel.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            this.SettingNavLabel.Location = new Point(333, 17);
+            this.SettingNavLabel.Margin = new Padding(20, 0, 20, 0);
+            this.SettingNavLabel.Name = "SettingNavLabel";
+            this.SettingNavLabel.Size = new Size(135, 45);
+            this.SettingNavLabel.TabIndex = 1;
+            this.SettingNavLabel.Text = "Settings";
+            this.SettingNavLabel.Click += this.SettingNavLabel_Click;
             // 
             // MainForm
             // 
@@ -163,9 +163,9 @@
             this.AutoScaleMode = AutoScaleMode.Font;
             this.BackColor = Color.FromArgb(36, 39, 45);
             this.ClientSize = new Size(1554, 1154);
-            this.Controls.Add(flowLayoutPanel1);
-            this.Controls.Add(LoadingProgressBar);
-            this.Controls.Add(panel1);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.LoadingProgressBar);
+            this.Controls.Add(this.panel1);
             this.ForeColor = Color.WhiteSmoke;
             this.Icon = (Icon)resources.GetObject("$this.Icon");
             this.Margin = new Padding(6);
@@ -174,10 +174,10 @@
             this.Text = "Game Launcher";
             this.FormClosed += this.Form1_FormClosed;
             this.Load += this.Form1_Load;
-            contextMenuStrip1.ResumeLayout(false);
-            panel1.ResumeLayout(false);
-            flowLayoutPanel2.ResumeLayout(false);
-            flowLayoutPanel2.PerformLayout();
+            this.contextMenuStrip1.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
+            this.flowLayoutPanel2.PerformLayout();
             this.ResumeLayout(false);
         }
 

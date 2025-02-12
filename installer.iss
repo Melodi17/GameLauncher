@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Game Launcher"
-#define MyAppVersion "1.5.4"
+#define MyAppVersion "1.5.5"
 #define MyAppPublisher "Melodi Dey"
 #define MyAppURL "https://github.com/Melodi17/GameLauncher"
 #define MyAppExeName "GameLauncher.exe"
