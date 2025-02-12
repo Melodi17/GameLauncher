@@ -1,9 +1,9 @@
 # Game Launcher
->  Mel's Game Launcher (Version 1.5.4 Beta)
+>  Mel's Game Launcher (Version 1.5.5 Beta)
 
 
 
-<img src="Assets/gamelauncher.png" width=150 style="float:left;" />
+<img src="Assets/gamelauncherold.png" width=150 style="float:left;" />
 
 ## Installation
 
@@ -80,6 +80,12 @@ Yes! You can edit the `launch.dat` file in the game's folder with another line w
 
 
 ## Versions
+
+### Beta 1.5.5
+
+- I forot my issue for months :)
+- I (kruml) learned pull requests
+- Fixed the ugly Logo
 
 ### Beta 1.5.4
 
