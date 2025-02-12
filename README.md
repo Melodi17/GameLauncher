@@ -77,7 +77,9 @@ Yes! You can edit the `launch.dat` file in the game's folder with another line w
 - [ ] Add minimize to try option
 - [ ] Fix issue with manual override not actually updating anything
 
-
+## Credits
+- [ItsKruml](https://github.com/ItsKruml) for the new logo
+- [IGDB](https://www.igdb.com/) for providing the game metadata
 
 ## Versions
 
